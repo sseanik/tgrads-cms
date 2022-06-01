@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_photo_photos",
+  "info": {
+    "displayName": "Photo",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Caption": {
+      "type": "string"
+    }
+  }
+}
