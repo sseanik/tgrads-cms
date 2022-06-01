@@ -3164,7 +3164,7 @@
   dependencies:
     "lodash" "^4.17.14"
 
-"async@^3.1.0":
+"async@^3.1.0", "async@3.2.3":
   "integrity" "sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g=="
   "resolved" "https://registry.npmjs.org/async/-/async-3.2.3.tgz"
   "version" "3.2.3"
@@ -3671,6 +3671,15 @@
   dependencies:
     "mime-types" "^2.1.18"
     "ylru" "^1.2.0"
+
+"cache-manager@^3.6.0":
+  "integrity" "sha512-dS4DnV6c6cQcVH5OxzIU1XZaACXwvVIiUPkFytnRmLOACuBGv3GQgRQ1RJGRRw4/9DF14ZK2RFlZu1TUgDniMg=="
+  "resolved" "https://registry.npmjs.org/cache-manager/-/cache-manager-3.6.3.tgz"
+  "version" "3.6.3"
+  dependencies:
+    "async" "3.2.3"
+    "lodash.clonedeep" "^4.5.0"
+    "lru-cache" "6.0.0"
 
 "cacheable-lookup@^5.0.3":
   "integrity" "sha512-2/kNscPhpcxrOigMZzbiWF7dz8ilhb/nIHU3EyZiXWXpeq/au8qJ8VhdftMkty3n7Gj6HIGalQG8oiBNB3AJgA=="
@@ -7905,6 +7914,11 @@
   "resolved" "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz"
   "version" "4.17.21"
 
+"lodash.clonedeep@^4.5.0":
+  "integrity" "sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ=="
+  "resolved" "https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz"
+  "version" "4.5.0"
+
 "lodash.debounce@^4.0.8":
   "integrity" "sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow=="
   "resolved" "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
@@ -8047,7 +8061,7 @@
   dependencies:
     "yallist" "^3.0.2"
 
-"lru-cache@^6.0.0":
+"lru-cache@^6.0.0", "lru-cache@6.0.0":
   "integrity" "sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA=="
   "resolved" "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz"
   "version" "6.0.0"
@@ -11459,7 +11473,7 @@
     "slugify" "^1.4.5"
     "uuid" "^8.3.0"
 
-"strapi-plugin-rest-cache@^4.2.4":
+"strapi-plugin-rest-cache@^4.0.0", "strapi-plugin-rest-cache@^4.2.4":
   "integrity" "sha512-Q//B6ni7GnrsOGMEu8RCbn0QQC2XOHcrMpXV30cb1qHJxe2lQj2ITJo6u1bTyy3Kg0lggUVYR2k8eBJm44XT4Q=="
   "resolved" "https://registry.npmjs.org/strapi-plugin-rest-cache/-/strapi-plugin-rest-cache-4.2.4.tgz"
   "version" "4.2.4"
@@ -11476,6 +11490,13 @@
     "@strapi/strapi" "^4.1.9"
     "axios" "^0.26.1"
     "react-intl" "^5.25.1"
+
+"strapi-provider-rest-cache-memory@^4.2.4":
+  "integrity" "sha512-W8mkl5chvLMj4wfcle7U2CzwdEBN4TkJTQzRWkK7hQSLpACQ438yZsULkUFdxFjymN+FC9k34A5ET9tOce8Q1A=="
+  "resolved" "https://registry.npmjs.org/strapi-provider-rest-cache-memory/-/strapi-provider-rest-cache-memory-4.2.4.tgz"
+  "version" "4.2.4"
+  dependencies:
+    "cache-manager" "^3.6.0"
 
 "strapi-tiptap-editor@^0.7.13":
   "integrity" "sha512-ru1UNy50IIW9m6F5vRI7dEB3Zj535y3MgRjO0JI0GlF/jHkxN6YUvgd2aPZ9aR7o4ZSsy7odj2zn58gVVj1ZNg=="
