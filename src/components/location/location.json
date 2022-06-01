@@ -2,13 +2,17 @@
   "collectionName": "components_location_locations",
   "info": {
     "displayName": "Location",
-    "icon": "location-arrow"
+    "icon": "location-arrow",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "Place": {
       "type": "string",
       "required": true
+    },
+    "Suburb": {
+      "type": "string"
     },
     "URL": {
       "type": "string"
