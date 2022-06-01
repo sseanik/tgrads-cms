@@ -14,7 +14,7 @@
     "Suburb": {
       "type": "string"
     },
-    "URL": {
+    "GoogleMapURL": {
       "type": "string"
     }
   }

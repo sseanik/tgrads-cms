@@ -16,7 +16,7 @@
       "type": "string",
       "required": true
     },
-    "Image": {
+    "PreviewImage": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -24,22 +24,25 @@
         "images"
       ]
     },
+    "Description": {
+      "type": "text"
+    },
+    "DateTime": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.date-time",
+      "required": true
+    },
     "Location": {
       "type": "component",
       "repeatable": false,
-      "component": "form.location",
-      "required": true
+      "component": "form.location"
     },
     "RSVP": {
       "type": "text"
     },
-    "Notes": {
+    "Footnotes": {
       "type": "text"
-    },
-    "Date": {
-      "type": "component",
-      "repeatable": true,
-      "component": "form.date-time"
     }
   }
 }

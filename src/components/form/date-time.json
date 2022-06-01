@@ -2,16 +2,18 @@
   "collectionName": "components_form_date_times",
   "info": {
     "displayName": "DateTime",
-    "icon": "calendar-times"
+    "icon": "calendar-times",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Date": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "Time": {
       "type": "string",
-      "default": "5:00 AM"
+      "default": "5:30 PM"
     }
   }
 }
