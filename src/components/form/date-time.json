@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_form_date_times",
+  "info": {
+    "displayName": "DateTime",
+    "icon": "calendar-times"
+  },
+  "options": {},
+  "attributes": {
+    "Date": {
+      "type": "date"
+    },
+    "Time": {
+      "type": "string",
+      "default": "5:00 AM"
+    }
+  }
+}

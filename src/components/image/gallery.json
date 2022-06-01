@@ -2,14 +2,15 @@
   "collectionName": "components_gallery_galleries",
   "info": {
     "displayName": "Gallery",
-    "icon": "images"
+    "icon": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Photos": {
       "type": "component",
       "repeatable": true,
-      "component": "photo.photo"
+      "component": "image.photo"
     }
   }
 }

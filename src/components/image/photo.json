@@ -2,17 +2,18 @@
   "collectionName": "components_photo_photos",
   "info": {
     "displayName": "Photo",
-    "icon": "image"
+    "icon": "image",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Caption": {
       "type": "string"

@@ -14,7 +14,7 @@
     "Photos": {
       "type": "component",
       "repeatable": false,
-      "component": "gallery.gallery"
+      "component": "image.gallery"
     }
   }
 }

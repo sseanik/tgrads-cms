@@ -24,17 +24,10 @@
         "images"
       ]
     },
-    "Date": {
-      "type": "date",
-      "required": true
-    },
-    "Time": {
-      "type": "time"
-    },
     "Location": {
       "type": "component",
       "repeatable": false,
-      "component": "location.location",
+      "component": "form.location",
       "required": true
     },
     "RSVP": {
@@ -42,6 +35,11 @@
     },
     "Notes": {
       "type": "text"
+    },
+    "Date": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.date-time"
     }
   }
 }
