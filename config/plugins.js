@@ -14,7 +14,6 @@ module.exports = ({ env }) => ({
         delete: {},
       },
     },
-    breakpoints: {}
   },
   // ...
 });
