@@ -22,9 +22,6 @@
     "better-sqlite3": "7.4.6",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
-    "strapi-plugin-email-designer": "^2.1.1",
-    "strapi-plugin-graphs-builder": "^1.0.0",
-    "strapi-plugin-navigation": "^2.0.13",
     "strapi-plugin-rest-cache": "^4.2.4",
     "strapi-plugin-vercel-deploy": "^1.1.0",
     "strapi-provider-rest-cache-memory": "^4.2.4"
