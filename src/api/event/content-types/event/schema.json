@@ -20,7 +20,7 @@
       "targetField": "Title",
       "required": true
     },
-    "Preview": {
+    "Image": {
       "allowedTypes": [
         "images"
       ],
@@ -28,20 +28,25 @@
       "multiple": false
     },
     "Description": {
-      "type": "richtext"
-    },
-    "DateTime": {
-      "type": "component",
-      "repeatable": false,
-      "component": "form.date-time",
+      "type": "text",
       "required": true
     },
-    "Location": {
-      "type": "component",
-      "repeatable": false,
-      "component": "form.location"
+    "Date": {
+      "type": "date",
+      "required": true
     },
-    "Footnote": {
+    "Time": {
+      "type": "string",
+      "default": "5:30 PM"
+    },
+    "Location": {
+      "type": "string",
+      "required": true
+    },
+    "GoogleMapsURL": {
+      "type": "string"
+    },
+    "RSVP": {
       "type": "richtext"
     }
   }
