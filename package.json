@@ -15,6 +15,7 @@
     "@offset-dev/strapi-calendar": "^0.0.5",
     "@strapi/plugin-documentation": "^4.1.12",
     "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-seo": "^1.7.3",
     "@strapi/plugin-users-permissions": "4.1.12",
     "@strapi/provider-upload-cloudinary": "^4.1.12",
     "@strapi/strapi": "4.1.12",
