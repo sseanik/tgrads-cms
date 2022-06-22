@@ -9,28 +9,22 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@_sh/strapi-plugin-ckeditor": "^1.1.0",
-    "@exfabrica/strapi-plugin-awesome-help": "^1.0.8",
-    "@offset-dev/strapi-calendar": "^0.0.5",
-    "@strapi/plugin-documentation": "^4.1.12",
-    "@strapi/plugin-i18n": "4.1.12",
-    "@strapi/plugin-seo": "^1.7.3",
-    "@strapi/plugin-users-permissions": "4.1.12",
-    "@strapi/provider-upload-cloudinary": "^4.1.12",
-    "@strapi/strapi": "4.1.12",
+    "@strapi/plugin-i18n": "4.2.0",
+    "@strapi/plugin-users-permissions": "4.2.0",
+    "@strapi/provider-upload-cloudinary": "^4.2.0",
+    "@strapi/strapi": "4.2.0",
     "better-sqlite3": "7.4.6",
-    "pg": "^8.7.3",
-    "pg-connection-string": "^2.5.0",
     "strapi-plugin-rest-cache": "^4.2.4",
-    "strapi-plugin-vercel-deploy": "^1.1.0",
+    "strapi-plugin-vercel-deploy": "^1.2.0",
     "strapi-provider-rest-cache-memory": "^4.2.4"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "4aee6bc1-5598-434b-8bd0-dfdb6b427755"
+    "uuid": "a1657135-a336-46fe-acfd-798f09c2fd94"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",

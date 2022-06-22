@@ -4,7 +4,8 @@
   "info": {
     "singularName": "event",
     "pluralName": "events",
-    "displayName": "Event"
+    "displayName": "Event",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,11 +22,12 @@
       "required": true
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Description": {
       "type": "text",
@@ -43,11 +45,14 @@
       "type": "string",
       "required": true
     },
+    "Suburb": {
+      "type": "string"
+    },
     "GoogleMapsURL": {
       "type": "string"
     },
     "RSVP": {
-      "type": "richtext"
+      "type": "text"
     }
   }
 }
