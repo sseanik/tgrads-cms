@@ -51,8 +51,8 @@
     "GoogleMapsURL": {
       "type": "string"
     },
-    "RSVP": {
-      "type": "text"
+    "Footnote": {
+      "type": "richtext"
     }
   }
 }
