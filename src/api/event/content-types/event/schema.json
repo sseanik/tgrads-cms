@@ -53,6 +53,10 @@
     },
     "Footnote": {
       "type": "richtext"
+    },
+    "Cost": {
+      "type": "string",
+      "default": "BYO"
     }
   }
 }
