@@ -57,6 +57,9 @@
     "Cost": {
       "type": "string",
       "default": "BYO"
+    },
+    "RSVPURL": {
+      "type": "string"
     }
   }
 }
