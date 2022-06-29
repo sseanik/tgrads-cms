@@ -12,7 +12,7 @@ module.exports = ({ env }) => ({
         upload: {},
         uploadStream: {},
         delete: {},
-      },
+      }
     },
   },
   
