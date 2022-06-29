@@ -31,7 +31,7 @@
     },
     "Description": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "Date": {
       "type": "date",
@@ -56,10 +56,15 @@
     },
     "Cost": {
       "type": "string",
-      "default": "BYO"
+      "default": "$"
     },
     "RSVPURL": {
       "type": "string"
+    },
+    "TGAEvent": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
