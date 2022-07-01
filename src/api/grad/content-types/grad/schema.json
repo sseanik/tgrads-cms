@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grads",
+  "info": {
+    "singularName": "grad",
+    "pluralName": "grads",
+    "displayName": "Grad"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string",
+      "required": true
+    },
+    "LastName": {
+      "type": "string",
+      "required": true
+    },
+    "State": {
+      "type": "enumeration",
+      "enum": [
+        "New South Wales",
+        "Victoria",
+        "Queensland",
+        "Australian Capital Territory",
+        "Western Australia",
+        "South Australia",
+        "Tasmania",
+        "Northern Territory"
+      ],
+      "required": true,
+      "default": "New South Wales"
+    }
+  }
+}

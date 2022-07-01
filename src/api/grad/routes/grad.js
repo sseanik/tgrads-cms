@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * account router.
+ * grad router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::account.account');
+module.exports = createCoreRouter('api::grad.grad');

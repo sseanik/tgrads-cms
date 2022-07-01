@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  account controller
+ *  grad controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::account.account');
+module.exports = createCoreController('api::grad.grad');

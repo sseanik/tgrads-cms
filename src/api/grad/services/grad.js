@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * account service.
+ * grad service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::account.account');
+module.exports = createCoreService('api::grad.grad');
