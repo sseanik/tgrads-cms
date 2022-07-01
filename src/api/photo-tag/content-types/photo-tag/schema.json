@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photo_tags",
+  "info": {
+    "singularName": "photo-tag",
+    "pluralName": "photo-tags",
+    "displayName": "PhotoTag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FaceBoxes": {
+      "type": "json",
+      "required": true
+    },
+    "GallerySlug": {
+      "type": "string",
+      "required": true
+    },
+    "PhotoID": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
