@@ -48,7 +48,7 @@
     "Suburb": {
       "type": "string"
     },
-    "GoogleMapsURL": {
+    "LocationURL": {
       "type": "string"
     },
     "Footnote": {
