@@ -17,85 +17,81 @@
       "type": "string",
       "minLength": 3,
       "unique": true,
+      "configurable": false,
       "required": true
     },
     "email": {
       "type": "email",
       "minLength": 6,
+      "configurable": false,
       "required": true
     },
     "provider": {
-      "type": "string"
+      "type": "string",
+      "configurable": false
     },
     "password": {
       "type": "password",
       "minLength": 6,
+      "configurable": false,
       "private": true
     },
     "resetPasswordToken": {
       "type": "string",
+      "configurable": false,
       "private": true
     },
     "confirmationToken": {
       "type": "string",
+      "configurable": false,
       "private": true
     },
     "confirmed": {
       "type": "boolean",
-      "default": false
+      "default": false,
+      "configurable": false
     },
     "blocked": {
       "type": "boolean",
-      "default": false
+      "default": false,
+      "configurable": false
     },
     "role": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "plugin::users-permissions.role",
-      "inversedBy": "users"
+      "inversedBy": "users",
+      "configurable": false
     },
-    "Cohort": {
+    "cohort": {
       "type": "enumeration",
       "enum": [
-        "NSW Grad 2022",
-        "NSW Grad 2021",
-        "NSW Grad 2020",
-        "NSW Grad 2019",
-        "National Grad 2022"
+        "NSW Grads 2022",
+        "NSW Grads 2021",
+        "NSW Grads 2020",
+        "NSW Grads 2019",
+        "National Grads 2022"
       ],
-      "default": "NSW Grad 2022",
-      "required": true
+      "default": "NSW Grads 2022"
     },
-    "FirstName": {
-      "type": "string",
-      "required": true
+    "firstName": {
+      "type": "string"
     },
-    "LastName": {
-      "type": "string",
-      "required": true
+    "lastName": {
+      "type": "string"
     },
-    "PlusOne": {
+    "plusOne": {
       "type": "boolean",
-      "default": false,
-      "required": true
+      "default": false
     },
-    "PlusOneFirstName": {
+    "plusOneFirstName": {
       "type": "string"
     },
-    "PlusOneLastName": {
+    "plusOneLastName": {
       "type": "string"
     },
-    "CustomPassword": {
-      "type": "boolean",
-      "default": false,
-      "required": false
-    },
-    "GeneratedPassword": {
+    "generatedPassword": {
       "type": "string"
-    },
-    "Codes": {
-      "type": "richtext",
-      "required": true
     }
   }
 }
