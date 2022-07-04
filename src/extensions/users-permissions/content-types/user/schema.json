@@ -63,17 +63,6 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "cohort": {
-      "type": "enumeration",
-      "enum": [
-        "NSW Grads 2022",
-        "NSW Grads 2021",
-        "NSW Grads 2020",
-        "NSW Grads 2019",
-        "National Grads 2022"
-      ],
-      "default": "NSW Grads 2022"
-    },
     "firstName": {
       "type": "string"
     },
@@ -92,6 +81,19 @@
     },
     "generatedPassword": {
       "type": "string"
+    },
+    "codes": {
+      "type": "json"
+    },
+    "cohort": {
+      "type": "enumeration",
+      "enum": [
+        "NSW Grad 2022",
+        "NSW Grad 2021",
+        "NSW Grad 2020",
+        "NSW Grad 2019",
+        "National Grad 2022"
+      ]
     }
   }
 }
