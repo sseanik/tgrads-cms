@@ -54,6 +54,15 @@
     "Password": {
       "type": "password",
       "private": true,
+      "required": false
+    },
+    "GeneratedPassword": {
+      "type": "string",
+      "required": true
+    },
+    "CustomPassword": {
+      "type": "boolean",
+      "default": true,
       "required": true
     }
   }
