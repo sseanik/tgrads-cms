@@ -88,7 +88,7 @@
     "CustomPassword": {
       "type": "boolean",
       "default": false,
-      "required": true
+      "required": false
     },
     "GeneratedPassword": {
       "type": "string"
