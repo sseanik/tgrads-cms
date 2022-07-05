@@ -80,7 +80,8 @@
       "type": "string"
     },
     "generatedPassword": {
-      "type": "string"
+      "type": "string",
+      "configurable": false
     },
     "codes": {
       "type": "json"
