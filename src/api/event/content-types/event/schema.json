@@ -59,7 +59,8 @@
       "default": "$"
     },
     "RSVPURL": {
-      "type": "string"
+      "type": "string",
+      "default": "https://www.facebook.com/messages/t/6774431779249063"
     },
     "TGAEvent": {
       "type": "boolean",
