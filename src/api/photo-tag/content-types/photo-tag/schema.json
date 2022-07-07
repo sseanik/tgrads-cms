@@ -4,7 +4,8 @@
   "info": {
     "singularName": "photo-tag",
     "pluralName": "photo-tags",
-    "displayName": "PhotoTag"
+    "displayName": "PhotoTag",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
