@@ -66,6 +66,21 @@
       "type": "boolean",
       "default": true,
       "required": true
+    },
+    "State": {
+      "type": "enumeration",
+      "enum": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "ACT",
+        "WA",
+        "TAS",
+        "NT"
+      ],
+      "default": "NSW",
+      "required": true
     }
   }
 }
