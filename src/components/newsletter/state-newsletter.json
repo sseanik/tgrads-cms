@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_newsletter_state_newsletters",
+  "info": {
+    "displayName": "StateBlurb",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "State": {
+      "type": "enumeration",
+      "enum": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "ACT",
+        "WA",
+        "TAS",
+        "NT"
+      ],
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

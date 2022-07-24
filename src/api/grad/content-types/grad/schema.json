@@ -4,7 +4,8 @@
   "info": {
     "singularName": "grad",
     "pluralName": "grads",
-    "displayName": "Grad"
+    "displayName": "Grad",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,17 +23,17 @@
     "State": {
       "type": "enumeration",
       "enum": [
-        "New South Wales",
-        "Victoria",
-        "Queensland",
-        "Australian Capital Territory",
-        "Western Australia",
-        "South Australia",
-        "Tasmania",
-        "Northern Territory"
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "ACT",
+        "WA",
+        "TAS",
+        "NT"
       ],
       "required": true,
-      "default": "New South Wales"
+      "default": "NSW"
     }
   }
 }
