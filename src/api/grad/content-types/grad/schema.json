@@ -34,6 +34,21 @@
       ],
       "required": true,
       "default": "NSW"
+    },
+    "FullName": {
+      "type": "string",
+      "required": true
+    },
+    "Role": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "string",
+      "required": true
+    },
+    "StarSign": {
+      "type": "string"
     }
   }
 }

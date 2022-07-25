@@ -13,6 +13,9 @@ module.exports = [
             "blob:",
             "dl.airtable.com",
             "res.cloudinary.com",
+            "cdn.jsdelivr.net",
+            "strapi.io",
+            "s3.amazonaws.com",
           ],
           "media-src": [
             "'self'",
@@ -21,6 +24,8 @@ module.exports = [
             "dl.airtable.com",
             "res.cloudinary.com",
           ],
+          "script-src": ["'self'", "editor.unlayer.com"],
+          "frame-src": ["'self'", "editor.unlayer.com"],
           upgradeInsecureRequests: null,
         },
       },
