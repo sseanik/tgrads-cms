@@ -43,6 +43,9 @@
     "FirstDayOfMonth": {
       "type": "date",
       "required": true
+    },
+    "Gif": {
+      "type": "string"
     }
   }
 }
