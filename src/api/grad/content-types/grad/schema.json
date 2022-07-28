@@ -49,6 +49,10 @@
     },
     "StarSign": {
       "type": "string"
+    },
+    "TGA": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
