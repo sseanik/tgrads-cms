@@ -35,7 +35,8 @@
     "Event": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::event.event"
+      "target": "api::event.event",
+      "required": true
     }
   }
 }
