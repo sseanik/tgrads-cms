@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_major_event_event_sections",
+  "info": {
+    "displayName": "EventSection",
+    "icon": "chalkboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "BlurbTitle": {
+      "type": "string",
+      "required": true
+    },
+    "BlurbLink": {
+      "type": "string"
+    },
+    "FootnoteTitle": {
+      "type": "string",
+      "required": true
+    },
+    "FootnoteSize": {
+      "type": "enumeration",
+      "enum": [
+        "xl",
+        "lg",
+        "md",
+        "sm",
+        "xs"
+      ],
+      "required": true
+    },
+    "FootnoteLink": {
+      "type": "string"
+    },
+    "Colour": {
+      "type": "string",
+      "required": true
+    },
+    "IconCheck": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

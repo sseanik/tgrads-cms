@@ -29,10 +29,6 @@
         "images"
       ]
     },
-    "Description": {
-      "type": "text",
-      "required": false
-    },
     "Date": {
       "type": "date",
       "required": false
@@ -79,6 +75,9 @@
       ],
       "default": "NSW",
       "required": true
+    },
+    "Description": {
+      "type": "richtext"
     }
   }
 }

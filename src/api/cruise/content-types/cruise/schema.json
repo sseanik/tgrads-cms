@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "cruises",
+  "info": {
+    "singularName": "cruise",
+    "pluralName": "cruises",
+    "displayName": "Cruise",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "EventDetailsURL": {
+      "type": "string"
+    },
+    "Blurb": {
+      "type": "component",
+      "repeatable": true,
+      "component": "major-event.event-section",
+      "required": true
+    },
+    "DateTime": {
+      "type": "datetime"
+    }
+  }
+}
