@@ -77,7 +77,7 @@
       "required": true
     },
     "Description": {
-      "type": "richtext"
+      "type": "text"
     }
   }
 }
