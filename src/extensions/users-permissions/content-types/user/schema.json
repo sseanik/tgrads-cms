@@ -63,6 +63,10 @@
       "inversedBy": "users",
       "configurable": false
     },
+    "generatedPassword": {
+      "type": "string",
+      "configurable": false
+    },
     "firstName": {
       "type": "string"
     },
@@ -79,10 +83,6 @@
     "plusOneLastName": {
       "type": "string"
     },
-    "generatedPassword": {
-      "type": "string",
-      "configurable": false
-    },
     "codes": {
       "type": "json"
     },
@@ -93,7 +93,8 @@
         "NSW Grad 2021",
         "NSW Grad 2020",
         "NSW Grad 2019",
-        "National Grad 2022"
+        "National Grad 2022",
+        "Incoming 2023 Grad"
       ]
     }
   }
