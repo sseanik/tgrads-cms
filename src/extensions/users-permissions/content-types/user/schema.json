@@ -89,13 +89,15 @@
     "cohort": {
       "type": "enumeration",
       "enum": [
+        "NSW Grad 2023",
         "NSW Grad 2022",
         "NSW Grad 2021",
         "NSW Grad 2020",
         "NSW Grad 2019",
+        "National Grad 2023",
         "National Grad 2022",
-        "NSW Grad 2023",
-        "National Grad 2023"
+        "National Grad 2021",
+        "National Grad 2020"
       ]
     }
   }
