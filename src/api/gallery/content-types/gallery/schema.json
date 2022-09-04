@@ -37,6 +37,10 @@
       "relation": "oneToOne",
       "target": "api::event.event",
       "required": true
+    },
+    "OptionalName": {
+      "type": "string",
+      "unique": false
     }
   }
 }
